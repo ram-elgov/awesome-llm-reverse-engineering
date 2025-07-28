@@ -48,6 +48,8 @@ Long explanations stay in prose; tables use *≤ 3 columns* and short phrase
 | **GhidraChatGPT** | Vuln finder (Ghidra) | 🔗 [code](https://github.com/likvidera/GhidraChatGPT)<br>![GitHub stars](https://img.shields.io/github/stars/likvidera/GhidraChatGPT?style=social) |
 | **GhidrAssist / BinAssist** | Local LLaMA in Ghidra / BN | 🔗 [code](https://github.com/jasontang-ghidrassist/GhidrAssist)<br>![GitHub stars](https://img.shields.io/github/stars/jasontang-ghidrassist/GhidrAssist?style=social) |
 | **Binary Ninja Sidekick** | AI index & insights | 🔗 [docs](https://sidekick.binary.ninja/) |
+| **r2ai / decai** | AI‑assisted decompilation (Radare2) | 🔗 [code](https://github.com/radareorg/r2ai)<br>![GitHub stars](https://img.shields.io/github/stars/radareorg/r2ai?style=social) |
+| **FuzzDriverGPT** | GPT‑based fuzz driver generator | 🔗 [code](https://github.com/occia/fuzzdrivergpt)<br>![GitHub stars](https://img.shields.io/github/stars/occia/fuzzdrivergpt?style=social) |
 | **ReverserAI** | Offline BN plugin | 🔗 [code](https://github.com/reflare/ReverserAI)<br>![GitHub stars](https://img.shields.io/github/stars/reflare/ReverserAI?style=social) |
 | **GPT‑WPRE** | Whole‑program summary | 🔗 [code](https://github.com/moyix/gpt-wpre)<br>![GitHub stars](https://img.shields.io/github/stars/moyix/gpt-wpre?style=social) |
 
@@ -70,6 +72,7 @@ Long explanations stay in prose; tables use *≤ 3 columns* and short phrase
 | Year | Title (link) | Notes |
 |------|--------------|-------|
 | 2025 | **An Empirical Study on the Effectiveness of LLMs for Binary Code Understanding** | new benchmark 🔗 [2504.21803](https://arxiv.org/abs/2504.21803) |
+| 2025 | **D‑LiFT: Improving LLM‑based Decompiler Backend via Code Quality‑driven Fine‑tuning** | RL‑guided backend, D‑Score metric 🔗 [2506.10125](https://arxiv.org/abs/2506.10125) |
 | 2025 | **CFADecLLM** | CFG tokens boost accuracy 🔗 [2405.17963](https://arxiv.org/abs/2405.17963) |
 | 2025 | **ReCopilot** | domain‑specific LLM 🔗 [2501.02513](https://arxiv.org/abs/2501.02513) |
 | 2024 | **Exploring the Efficacy of GPT‑4 in Binary RE** | GPT‑4 limitations 🔗 [2406.06637](https://arxiv.org/abs/2406.06637) |
@@ -77,6 +80,8 @@ Long explanations stay in prose; tables use *≤ 3 columns* and short phrase
 | 2024 | **DeGPT** | multi‑role prompting 🔗 [NDSS ’24](https://www.ndss-symposium.org/ndss-paper/de-gpt-optimizing-decompiler-output-with-llm/) |
 | 2024 | **DeBinVul** | vuln dataset 🔗 [2403.05366](https://arxiv.org/abs/2403.05366) |
 | 2024 | **WaDec** | WebAssembly decompiler 🔗 [2404.06145](https://arxiv.org/abs/2404.06145) |
+| 2024 | **FuzzGPT: Crafting Unusual Programs for Fuzzing Deep Learning Libraries** | LLM‑driven fuzzing 🔗 [2304.02014](https://arxiv.org/abs/2304.02014) |
+| 2024 | **LLM‑Guided Protocol Fuzzing** | NDSS ’24 protocol fuzzer 🔗 [PDF](https://abhikrc.com/pdf/NDSS24.pdf) |
 | 2023 | **SLaDe** | small model, big gains 🔗 [2306.10604](https://arxiv.org/abs/2306.10604) |
 | 2023 | **LmPa** | var‑name recovery 🔗 [2309.06871](https://arxiv.org/abs/2309.06871) |
 | 2023 | **Nova** | hierarchical assembly model 🔗 [2312.06261](https://arxiv.org/abs/2312.06261) |
