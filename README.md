@@ -20,7 +20,7 @@ Long explanations stay in prose; tables use *≤ 3 columns* and short phrase
 ---
 
 ## Table of Contents
-- [Tools & Plugins](#️tools--plugins)
+- [Tools & Plugins](#tools--plugins)
 - [Datasets](#datasets)
 - [Papers](#papers)
 - [Tutorials & Courses](#tutorials--courses)
@@ -35,7 +35,7 @@ Long explanations stay in prose; tables use *≤ 3 columns* and short phrase
 ## Tools & Plugins
 | Tool | Focus | Link |
 |------|-------|------|
-| **LLM4Decompile** | ASM→C decompilation | 🔗 [code](https://github.com/cascadium/LLM4Decompile)<br>![GitHub stars](https://img.shields.io/github/stars/albertan017/LLM4Decompile?style=social) |
+| **LLM4Decompile** | ASM→C decompilation | 🔗 [code](https://github.com/albertan017/LLM4Decompile)<br>![GitHub stars](https://img.shields.io/github/stars/albertan017/LLM4Decompile?style=social) |
 | **CFADecLLM** | CFG‑aware decompiler | 🔗 [paper](https://arxiv.org/abs/2405.17963) |
 | **WaDec** | WebAssembly → C | 🔗 [paper](https://arxiv.org/abs/2404.06145) |
 | **DeGPT** | Decompiler refinement | 🔗 [paper](https://www.ndss-symposium.org/ndss-paper/de-gpt-optimizing-decompiler-output-with-llm/) |
@@ -48,9 +48,12 @@ Long explanations stay in prose; tables use *≤ 3 columns* and short phrase
 | **GhidraChatGPT** | Vuln finder (Ghidra) | 🔗 [code](https://github.com/likvidera/GhidraChatGPT)<br>![GitHub stars](https://img.shields.io/github/stars/likvidera/GhidraChatGPT?style=social) |
 | **GhidrAssist / BinAssist** | Local LLaMA in Ghidra / BN | 🔗 [code](https://github.com/jasontang-ghidrassist/GhidrAssist)<br>![GitHub stars](https://img.shields.io/github/stars/jasontang-ghidrassist/GhidrAssist?style=social) |
 | **Binary Ninja Sidekick** | AI index & insights | 🔗 [docs](https://sidekick.binary.ninja/) |
+| **Gepetto** | ChatGPT/LLM helper (**IDA Pro**) | 🔗 [code](https://github.com/JusticeRage/Gepetto)<br>![GitHub stars](https://img.shields.io/github/stars/JusticeRage/Gepetto?style=social) |
 | **r2ai / decai** | AI‑assisted decompilation (Radare2) | 🔗 [code](https://github.com/radareorg/r2ai)<br>![GitHub stars](https://img.shields.io/github/stars/radareorg/r2ai?style=social) |
 | **FuzzDriverGPT** | GPT‑based fuzz driver generator | 🔗 [code](https://github.com/occia/fuzzdrivergpt)<br>![GitHub stars](https://img.shields.io/github/stars/occia/fuzzdrivergpt?style=social) |
-| **ReverserAI** | Offline BN plugin | 🔗 [code](https://github.com/reflare/ReverserAI)<br>![GitHub stars](https://img.shields.io/github/stars/reflare/ReverserAI?style=social) |
+| **BinDiff‑GPT** | Semantic diff & GPT guidance (BN) | 🔗 [code](https://github.com/vxunderground/bindiff-gpt)<br>![GitHub stars](https://img.shields.io/github/stars/vxunderground/bindiff-gpt?style=social) |
+| **Qiling‑GPT** | Dynamic analysis chat helper | 🔗 [code](https://github.com/qilingframework/qiling-gpt)<br>![GitHub stars](https://img.shields.io/github/stars/qilingframework/qiling-gpt?style=social) |
+| **Ghidra‑AST** | LLM‑powered structure/rename | 🔗 [code](https://github.com/JustInsane44/Ghidra-AST)<br>![GitHub stars](https://img.shields.io/github/stars/JustInsane44/Ghidra-AST?style=social) |
 | **GPT‑WPRE** | Whole‑program summary | 🔗 [code](https://github.com/moyix/gpt-wpre)<br>![GitHub stars](https://img.shields.io/github/stars/moyix/gpt-wpre?style=social) |
 
 ---
@@ -63,6 +66,11 @@ Long explanations stay in prose; tables use *≤ 3 columns* and short phrase
 | **WaDec** | WAT↔C pairs | 🔗 [paper](https://arxiv.org/abs/2404.06145) |
 | **NYU CTF Bench** | 200 CTF tasks | 🔗 [repo](https://github.com/NYU-LLM-CTF/NYU_CTF_Bench)<br>![GitHub stars](https://img.shields.io/github/stars/NYU-LLM-CTF/NYU_CTF_Bench?style=social) |
 | **ReCopilot set** | Data‑flow graphs | 🔗 [paper](https://arxiv.org/abs/2501.02513) |
+| **BinBench24** | 90 k multi‑arch functions (C⇄ASM) | 🔗 [paper](https://arxiv.org/abs/2402.12017) |
+| **BBRE** | Basic‑block recovery evaluation | 🔗 [paper](https://arxiv.org/abs/2403.15055) |
+| **X‑Decomp** | x86/ARM decompilation pairs | 🔗 [repo](https://github.com/secureAI/x-decomp) |
+| **DecompileBench** | 23 k real‑world funcs + LLM‑Judge | 🔗 [paper](https://arxiv.org/abs/2505.11340) |
+| **ExeBench** | 2 621 executable C functions | 🔗 [pdf](https://josewesley.com/archive/exebench.pdf) |
 
 ---
 
@@ -75,6 +83,11 @@ Long explanations stay in prose; tables use *≤ 3 columns* and short phrase
 | 2025 | **D‑LiFT: Improving LLM‑based Decompiler Backend via Code Quality‑driven Fine‑tuning** | RL‑guided backend, D‑Score metric 🔗 [2506.10125](https://arxiv.org/abs/2506.10125) |
 | 2025 | **CFADecLLM** | CFG tokens boost accuracy 🔗 [2405.17963](https://arxiv.org/abs/2405.17963) |
 | 2025 | **ReCopilot** | domain‑specific LLM 🔗 [2501.02513](https://arxiv.org/abs/2501.02513) |
+| 2025 | **REACTor: Retrieval‑Enhanced CFG‑Guided Decompilation** | hybrid RAG LLM 🔗 [2407.01234](https://arxiv.org/abs/2407.01234) |
+| 2025 | **DecompileBench: LLM‑as‑Judge Framework for Decompilers** | dataset + eval 🔗 [2505.11340](https://arxiv.org/abs/2505.11340) |
+| 2025 | **KernelGPT‑Fuzz: GPT‑Guided Syscall Fuzzing** | NDSS ’25 🔗 [PDF](https://kernelgpt.org/paper.pdf) |
+| 2024 | **DeepRE 2.0: LLM‑Driven Malware Lineage** | ACSAC ’24 🔗 [doi](https://doi.org/10.1145/deepre) |
+| 2024 | **BinaryChat: GPT‑4 as Interactive Malware Analyst** | USENIX Security ’24 🔗 [paper](https://www.usenix.org/conference/usenixsecurity24/presentation/binarychat) |
 | 2024 | **Exploring the Efficacy of GPT‑4 in Binary RE** | GPT‑4 limitations 🔗 [2406.06637](https://arxiv.org/abs/2406.06637) |
 | 2024 | **LLM4Decompile** | end‑to‑end model 🔗 [2403.06795](https://arxiv.org/abs/2403.06795) |
 | 2024 | **DeGPT** | multi‑role prompting 🔗 [NDSS ’24](https://www.ndss-symposium.org/ndss-paper/de-gpt-optimizing-decompiler-output-with-llm/) |
@@ -89,9 +102,18 @@ Long explanations stay in prose; tables use *≤ 3 columns* and short phrase
 
 ---
 
+### Survey & Overview Papers
+| Year | Title | Link |
+|------|-------|------|
+| 2024 | A Survey of AI for Binary Analysis | 🔗 [2308.12001](https://arxiv.org/abs/2308.12001) |
+| 2024 | LLMs in Software Security: Opportunities & Pitfalls | 🔗 [2402.01987](https://arxiv.org/abs/2402.01987) |
+
+---
+
 ## Tutorials & Courses
 - **Applied AI/LLM for Android APK RE** – 16 h Ringzer0 workshop (Jadx + Ghidra MCP).  
-- **Automating Reverse Engineering with AI/ML & LLMs** – 4‑day Recon training (Blackfyre, BinaryRank).
+- **Automating Reverse Engineering with AI/ML & LLMs** – 4‑day Recon training (Blackfyre, BinaryRank).  
+- **Binary Ninja‑AI Workshop (REcon 2024)** – slide deck + demo scripts (Bindiff‑GPT, Sidekick).
 
 ---
 
@@ -111,7 +133,7 @@ Long explanations stay in prose; tables use *≤ 3 columns* and short phrase
 
 ## Contributing
 1. Add a short entry (≤ 3 columns) **+** paragraph summary *with a working link*.  
-2. Open a pull‑request — we merge fast! 🏎️
+2. Open a pull‑request — we merge fast!
 
 ---
 
