@@ -45,6 +45,7 @@ Long explanations stay in prose; tables use *≤ 3 columns* and short phrase
 | **ReCopilot** | Binary‑analysis LLM | 🔗 [paper](https://arxiv.org/abs/2501.02513) |
 | **ByteCodeLLM** | Python `.pyc` → .py | 🔗 [code](https://github.com/cyberark/ByteCodeLLM)<br>![GitHub stars](https://img.shields.io/github/stars/cyberark/ByteCodeLLM?style=social) |
 | **GptHidra** | Explain functions (Ghidra) | 🔗 [code](https://github.com/evyatar9/GptHidra)<br>![GitHub stars](https://img.shields.io/github/stars/evyatar9/GptHidra?style=social) |
+| **REA** | Agent-driven reverse engineering (CLI/MCP + skill) | 🔗 [repo](https://github.com/morluto/rea)<br>![GitHub stars](https://img.shields.io/github/stars/morluto/rea?style=social) |
 | **GhidraChatGPT** | Vuln finder (Ghidra) | 🔗 [code](https://github.com/likvidera/GhidraChatGPT)<br>![GitHub stars](https://img.shields.io/github/stars/likvidera/GhidraChatGPT?style=social) |
 | **GhidrAssist / BinAssist** | Local LLaMA in Ghidra / BN | 🔗 [code](https://github.com/jasontang-ghidrassist/GhidrAssist)<br>![GitHub stars](https://img.shields.io/github/stars/jasontang-ghidrassist/GhidrAssist?style=social) |
 | **Binary Ninja Sidekick** | AI index & insights | 🔗 [docs](https://sidekick.binary.ninja/) |
